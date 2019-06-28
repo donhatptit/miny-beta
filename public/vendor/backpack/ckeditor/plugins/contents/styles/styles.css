@@ -1,0 +1,48 @@
+.widget-toc{
+	width:100%;
+	display: table;
+	border: 1px solid #14a9e3;
+	background-color: #f8f9fa;
+	padding: 0.75rem;
+	font-size: 95%;
+	position: relative;
+}
+
+.widget-toc  ol {
+	padding-right: 0px;
+	counter-reset: item;
+}
+.widget-toc ol li {
+	display: block;
+	position: relative;
+	color:#14a9e3;
+	list-style:none!important;
+}
+/*.widget-toc  ol li:before {*/
+	/*content: counters(item, ".");*/
+	/*counter-increment: item;*/
+	/*position: absolute;*/
+	/*margin-right: 100%;*/
+	/*right: 0.5rem;*/
+/*}*/
+.widget-toc ol li a {
+	text-decoration: none;
+	color:#14a9e3;
+}
+
+.toc-title{
+	text-align: center;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	color:#14a9e3
+
+}
+#toggle{
+	position:absolute;
+	right:10px;
+	top:10px;
+	border:1px solid #14a9e3;
+	color:#14a9e3!important
+
+}

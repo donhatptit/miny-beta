@@ -1,0 +1,340 @@
+section.tool-dissolubility{
+  p.title{
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .card{
+    border: 1px solid $main-color;
+    .card-block{
+      table{
+        border-collapse: collapse;
+        color: white;
+        .table-header{
+          font-weight: 300;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+  span{
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.6rem;
+  }
+  .des{
+    color: black;
+    p{
+      font-weight: 300;
+    }
+  }
+}
+.th-left{
+  width: 10%;
+}
+.tool-dissolubility{
+  td {
+    border: 1px solid white;
+  }
+  th,.chemicals td{
+    border: 1px solid black;
+  }
+}
+.tan{
+  background-color: #337ab7;
+}
+.kotan{
+  background-color: #f0ad4e;
+}
+.ittan{
+  background-color: #5bc0de;
+}
+.kotontai{
+  background-color: #777777;
+}
+.tan-bayhoi{
+  background-image: -webkit-gradient(linear,right bottom,left top,color-stop(50%,#9966CC),color-stop(50%,#337ab7));
+}
+.tan-kobayhoi{
+  background-image: -webkit-gradient(linear,right bottom,left top,color-stop(50%,#336633),color-stop(50%,#337ab7));
+}
+.kotan-kobayhoi{
+  background-image: -webkit-gradient(linear,right bottom,left top,color-stop(50%,#336633),color-stop(50%,#f0ad4e));
+}
+@media (max-width: 576px){
+  section.tool-dissolubility{
+    .card-block{
+      padding: 0.5rem 0.5rem;
+      tr{
+        .th-left{
+          padding: 1rem;
+        }
+        td{
+          padding: 0.2rem 0.5rem;
+        }
+      }
+    }
+    span{
+      font-size: 0.9rem;
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  section.tool-dissolubility {
+    .card-block {
+      .th-left {
+        padding: 1rem;
+      }
+    }
+  }
+  span{
+    font-size: 0.9rem;
+  }
+}
+section.tool-periodic{
+  p.title{
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .card{
+    border: 1px solid $main-color;
+    .card-block{
+      table{
+        .table-header{
+          font-size: 0.9rem;
+          font-weight: 600;
+          border-bottom: 2px solid black;
+        }
+        width: 99.5%;
+        //table-layout: fixed;
+        border-collapse: collapse;
+        color: black;
+        tr{
+          td{
+            width: 40px;
+            height: 40px;
+          }
+        }
+        tr th.text-center{
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+  .des1{
+    table{
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: black;
+      td{
+        padding: 0.4rem 0.5rem ;
+      }
+    }
+  }
+  .des2,.des3{
+    font-size: 0.9rem;
+    color: black;
+    p{
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+  }
+}
+section.tool-periodic{
+  .symbol{
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    padding: 2px 0 0 3px;
+  }
+  .number{
+    float: right;
+    font-size: 0.8rem;
+    padding: 0 3px 2px 0;
+  }
+  .non-metal{
+    background-color: #A0FFA0;
+  }
+  .gas .number{
+    color: red;
+  }
+  .rare-gas{
+    background-color: #C0FFFF;
+  }
+  .weak-metal{
+    background-color: #CCCCCC;
+  }
+  .alkaline-earth-metal{
+    background-color: #FFDEAD;
+  }
+  .halogen{
+    background-color: #FFFF99;
+  }
+  .half-metal{
+    background-color: #CCCC99;
+  }
+  .alkali-metal{
+    background-color: #FF6666;
+  }
+  .transition-metal{
+    background-color: #FFC0C0;
+  }
+  .lantan{
+    background-color: #FFBFFF;
+  }
+  .actini{
+    background-color: #FF99CC;
+  }
+  .unknow-property{
+    background-color: #E8E8E8;
+  }
+  .born-late{
+    border: 2px dashed black;
+  }
+  .man-made{
+    border: 2px dotted black;
+  }
+  .nature{
+    border: 2px solid black;
+  }
+  .detect{
+    background-color: #DDDDDD;
+  }
+}
+@media (max-width: 992px) {
+  .periodic-table{
+    tr{
+      th.text-center{
+        padding: 0 1.7rem;
+      }
+    }
+  }
+  section.tool-periodic{
+    .card{
+      .card-block{
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+section.tool-electrochemical{
+  p.title{
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .card {
+    color:white;
+    //border: 1px solid #24c5a6;
+    border: 1px solid $main-color;
+    .card-block{
+      table{
+        table-layout: fixed;
+      }
+    }
+  }
+  span{
+    padding: 0.4rem;
+  }
+  .number{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .chemical{
+    font-size: 1.2rem;
+    span{
+      background-color: #337ab7;
+    }
+    td{
+      padding: 0 0.2rem 0 0.2rem;
+    }
+  }
+  .specical span{
+    background-color: #d9534f;
+  }
+  .des {
+    font-size: 1.2rem;
+    span{
+      background-color: #777777;
+    }
+  }
+  .des2{
+    color: black;
+    p{
+      font-weight: 300;
+    }
+  }
+}
+@media (max-width: 992px) {
+  section.tool-electrochemical{
+    .card{
+      .card-block{
+        padding: 1rem 0.5rem;
+      }
+    }
+    .chemical{
+      font-size: 1.1rem
+    }
+  }
+  section.tool-reactivity {
+    .card {
+      .card-block {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+section.tool-reactivity {
+  p.title {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .card {
+    color: white;
+    //border: 1px solid #24c5a6;
+    border: 1px solid $main-color;
+    .card-block {
+      table {
+        margin: left;
+        font-size: 1.2rem;
+        table-layout: fixed;
+        td{
+          padding: 0 0.35rem;
+        }
+      }
+    }
+  }
+  tr.head{
+    span{
+      width: 100%;
+    }
+  }
+  .badge-primary{
+    background-color: #337ab7;
+  }
+  .badge{
+    color: white;
+  }
+  .trick{
+    color:black;
+    font-size:0.9rem;
+    font-weight: 300;
+  }
+  button{
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+  }
+  .des2{
+    color: black;
+    font-weight: 300;
+  }
+  .extend{
+    display: none;
+  }
+  .showup{
+    display: table-cell;
+  }
+}

@@ -1,0 +1,208 @@
+@media (max-width: 576px){
+  html,body{
+    overflow-x: hidden;
+  }
+  .equation-heading{
+    background-image: url('/frontend/img/equation_header_mobile.png');
+    background-position: center center;
+    .menu{
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+      i.arrow-left{
+        display: inline-block;
+        float: left;
+        margin-left: -1.2rem;
+        width: 10px;
+        margin-top: 0.4rem;
+        font-size: 1.3rem;
+      }
+      i.arrow-right{
+        //display: inline-block;
+        float: right;
+        margin-right: -1.2rem;
+        //width: 13px;
+        margin-top: -2.3rem;
+        font-size: 1.3rem;
+      }
+      .wrap-menu{
+        button{
+          //width: 100%;
+          border-radius: 1.5rem;
+          padding: 0 1.2rem;
+          margin-right: 0.5rem;
+          //margin-bottom: 0.5rem;
+        }
+      }
+      .list-category{
+        .wrapper{
+          table{
+            td{
+              padding: 0.4rem 0.4rem;
+            }
+          }
+        }
+      }
+    }
+    .search{
+      font-size: 1.1rem;
+      padding-bottom: 0.6rem;
+      #chemical-search{
+        width: 85%;
+      }
+      #btn-chemical-search{
+        width: 15%;
+      }
+      .wrap{
+        //width: 100%;
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+      }
+      .real{
+        width: 100%;
+      }
+      .real-submit{
+        width: 100%;
+        border-radius:7px;
+        margin-left: 1px;
+      }
+      button{
+        //margin-left:1px;
+        //width: 100%;
+      }
+    }
+  }
+  .equation-main{
+    .padding{
+      padding-top: 2rem;
+    }
+    .cate-demo{
+      margin-top: 1rem;
+      .cate-name{
+        margin-top: 1rem;
+      }
+      .demo{
+        .card-deck-wrapper{
+          .card{
+            text-decoration: none;
+            color: black;
+            .card-block{
+              padding: 0.4rem 0.5rem;
+              .chemical-equation{
+                font-size: 1rem;
+              }
+              .state,.color-smell {
+                display: none;
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .chemicalequaiton{
+    .equation-detail{
+      .card{
+        .card-body{
+          table{
+            tr.chemical-equation{
+              font-size: 1.1rem;
+            }
+          }
+          button.calculate{
+            position: static;
+            margin-top: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+  //ul.pagination li:not(.show-mobile) {
+  //  display: none;
+  //}
+  #heading{
+    display: none;
+  }
+  .wrap-menu{
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 0.3rem;
+    //width: 94%;
+    margin: auto;
+    //margin-left: 0.6rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .equation-heading {
+    .menu{
+      padding-top: 1.5rem;
+      button{
+        border-radius: 1rem;
+        padding: 0 16px;
+      }
+    }
+    .search{
+      padding-bottom: 1.2rem;
+      .wrap{
+        width: 40%;
+      }
+      #chemical-search{
+        width: 80%;
+      }
+    }
+  }
+  .chemicalequaiton{
+    .equation-detail{
+      .card{
+        .card-body{
+          table{
+            tr.chemical-equation{
+              font-size: 1.1rem;
+            }
+          }
+          .cate{
+            button{
+              margin-bottom: 0.5rem;
+            }
+          }
+          button.calculate{
+            position: static;
+            margin-top: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+  .pl-md-2{
+    width:100%;
+  }
+  .cate-name{
+    margin-top: 1rem;
+  }
+  #heading{
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .equation-heading {
+    .menu{
+      button{
+        border-radius: 1rem;
+        padding: 0 32px;
+      }
+    }
+    #chemical-search{
+      width: 85%;
+    }
+    .search{
+      .wrap{
+        width: 38%;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  .padding-detail{
+    padding-right: 150px;
+  }
+}

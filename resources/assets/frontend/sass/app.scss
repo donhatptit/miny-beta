@@ -1,0 +1,64 @@
+// Fonts
+//@import "../css/font.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
+body {
+  font-family: 'Roboto', sans-serif!important;
+}
+@import "../plugins/styles";
+
+// Variables
+@import "variables";
+
+@import "header";
+@import "./equation/equation";
+@import "footer";
+@import "home";
+@import "post";
+@import "component";
+@import "admission";
+
+// Bootstrap
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// Load Bootstrap variables and mixins
+//@import "~bootstrap/scss/bootstrap";
+
+@import "~bootstrap/scss/bootstrap-reboot";
+
+@import "~bootstrap/scss/utilities/borders";
+@import "~bootstrap/scss/utilities/display";
+@import "~bootstrap/scss/utilities/flex";
+@import "~bootstrap/scss/utilities/float";
+@import "~bootstrap/scss/utilities/text";
+@import "~bootstrap/scss/utilities/spacing";
+//@import "~bootstrap/scss/utilities";
+
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/media";
+
+
+//@import "../plugins/fontawesome/scss/fontawesome";
+@import "../plugins/fontawesome/scss/variables";
+@import "../plugins/fontawesome/scss/mixins";
+@import "../plugins/fontawesome/scss/core";
+@import "../plugins/fontawesome/scss/fa-regular";
+@import "../plugins/fontawesome/scss/fa-solid";
+@import "../plugins/fontawesome/scss/used-icons";
+
+@import "../plugins/autocomplete/jquery.auto-complete.css";

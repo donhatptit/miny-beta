@@ -1,0 +1,146 @@
+//@media (min-width: 576px){
+//  .equation-heading {
+//    background-image: url('/frontend/img/equation_header.png');
+//    background-position: center center;
+//  }
+//}
+.equation-heading {
+  background-image: url('/frontend/img/equation_header.png');
+  background-position: center center;
+  .menu{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    button{
+      padding: 0 3rem;
+      border-radius: 0 25px 0 25px;
+      margin-right: 0.8rem;
+      background-color: #4f646c;
+      border:0;
+      font-size: 15px;
+      color: #d8d8d8;
+      i{
+        margin-right: 0.5rem;
+      }
+    }
+    button.active, button:hover{
+      //background-color: #23c5a5;
+      background-color: $main-color-light;
+      color: #ffffff;
+    }
+    .list-category{
+      z-index: 10000;
+      position: relative;
+      .wrapper{
+        text-align: left;
+        position: absolute;
+        width: 100%;
+        padding: 1.5rem 3rem;
+        background-color: #ffffff;
+        box-shadow: 5px 10px 18px #888888;
+        table{
+          font-weight: 300;
+          border-radius: 4px;
+          td{
+            padding: 0.2rem 0.4rem;
+            a{
+              color: $main-color;
+              text-decoration: none;
+              &:hover{
+                color: #f0a818;
+              }
+            }
+          }
+        }
+      }
+      &:hover{
+        display: block;
+      }
+    }
+    .category:hover ~ #list-category{
+      display: block;
+    }
+    .tool:hover ~ #list-tool{
+      display: block;
+    }
+  }
+
+  .title{
+    color: #ffffff;
+    .big-title{
+      margin-top: -0.5rem;
+      font-size: 1.75rem;
+      //font-weight:500;
+    }
+    .description{
+      margin-bottom: 0;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+    }
+  }
+  .search{
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+    #chemical-search{
+      width: 60%;
+    }
+    .wrap{
+      width: 28%;
+      position: relative;
+      display: inline-block;
+      input{
+        width: 100%;
+        padding: 10px;
+        border: 0;
+        color: grey;
+      }
+      .list-chemical{
+        display: none;
+        table{
+          z-index: 2;
+          background: white;
+          position: absolute;
+          width: 100%;
+          box-shadow: 3px 4px 18px #888888;
+          tr{
+            color: grey;
+            cursor: pointer;
+            td{
+              font-size: 1rem;
+              text-align: left;
+              padding: 0.3rem 0.7rem;
+            }
+            &:hover{
+              color: #f0a818;
+            }
+          }
+        }
+      }
+      .right{
+        border-left: 1px solid #dddddd ;
+      }
+      input:focus{
+        outline: none;
+      }
+      input:focus + .list-chemical{
+        display:block;
+      }
+    }
+    .wrap-right{
+      margin-left: -6px;
+    }
+    button{
+      //background-color: #23c5a5;
+      background-color: $main-color-light;
+      padding: 10px 15px;
+      color: white;
+      border: 0;
+      margin-left: -5px;
+      cursor: pointer;
+      &:hover{
+        //background-color: #2f9c86;
+        background-color: #1392c3;
+      }
+    }
+  }
+}

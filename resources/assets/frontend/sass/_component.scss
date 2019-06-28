@@ -1,0 +1,12 @@
+.heading-line{
+  //border-bottom: 2px solid #dddddd;
+  &:before{
+    content: "";
+    display: block;
+    //border-bottom: 3px solid #ff9900;
+    border-bottom: 3px solid #ffab4c;
+    width: 40px;
+    //margin-top: 20px;
+    margin-top: -3px;
+  }
+}

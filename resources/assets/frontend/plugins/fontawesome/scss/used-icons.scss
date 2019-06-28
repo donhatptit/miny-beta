@@ -1,0 +1,4 @@
+$fa-css-prefix : fas; // thay đổi cấu hình prefix class fontanwesome
+.#{$fa-css-prefix}-book-open:before { content: fa-content($fa-var-book-open); }
+//Thay vi fa-book-open => fas-book-open để tránh conflict với font cũ ^^
+.#{$fa-css-prefix}-times:before { content: fa-content($fa-var-times); }
